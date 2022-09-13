@@ -1,3 +1,4 @@
+
 const menuBtn = document.querySelector('.menu__burger')
 const mobileMenu = document.querySelector('.menu')
 
@@ -23,6 +24,19 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// swiper
+
+const swiper = new Swiper('.swiper', {
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-right",
+        prevEl: ".swiper-button-left",
+      },
+});
 
 
 const openMenu = () => {

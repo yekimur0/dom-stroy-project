@@ -1,0 +1,10 @@
+.tabs__panel {
+  display: none;
+}
+
+.tabs__panel--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=tabs.css.map */

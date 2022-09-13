@@ -26,6 +26,7 @@ function scripts () {
         'node_modules/jquery/dist/jquery.js',
         'app/js/tabs.js',
         'node_modules/owl.carousel/dist/owl.carousel.min.js',
+        'node_modules/swiper/swiper-bundle.min.js',
         'app/js/index.js'
     ])
     .pipe(sourcemaps.init())
@@ -60,6 +61,7 @@ function images () {
 function styles () {
     return src([
         'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
+        'node_modules/swiper/swiper.scss',
         'app/scss/style.scss'
         ])
         .pipe(sass({

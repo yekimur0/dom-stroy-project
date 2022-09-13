@@ -7,11 +7,18 @@
         color: $black;
         line-height: 50px;
         padding-bottom: 32px;
+        @media(max-width: $phone) {
+            font-size: 32px;
+        }
     }
     .tabs__nav {
         display: flex;
         align-items: center;
         margin-bottom: 32px;
+        flex-wrap: wrap;
+        @media(max-width: $tabletlg) {
+            row-gap: 20px;
+        }
     }
     .tabs__nav-item {
         list-style: none;
